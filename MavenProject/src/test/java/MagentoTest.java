@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 			
 		String url ="http//www.magento.com";
 		
-			WebDriver driver = new ChromeDriver();
+			WebDriver driver = new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			driver.get(url); 
 			Home h =new Home (driver);
